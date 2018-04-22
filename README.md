@@ -36,4 +36,5 @@ in the lambda function , only zip the folder node_modules and index.js.
 a very useful tutorial of how to create node.js and dynamobdb is available at 
 https://codeburst.io/how-to-create-an-alexa-skill-with-node-js-and-dynamodb-3c9d5e9661
 
+To view, edit your code (.json or .js) , you can use sublim tool. highly recommended :) . 
 
