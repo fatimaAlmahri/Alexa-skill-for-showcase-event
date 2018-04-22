@@ -38,3 +38,9 @@ https://codeburst.io/how-to-create-an-alexa-skill-with-node-js-and-dynamodb-3c9d
 
 To view, edit your code (.json or .js) , you can use sublim tool. highly recommended :) . 
 
+
+1. create you alexa skill in amazon alexa 
+2. create your lambda funciton in asw developer 
+3. create a database in dynamoDB in asw developer
+if you got error message in your skill stating that there is a problem with skills response, then go to aws developer , open your lambda function and search for CloudWatch then click on log then click on the log that shows the name of your skill , open it and read the error and try to resolve it.  :) 
+
