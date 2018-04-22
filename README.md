@@ -18,4 +18,17 @@ you will find a folder called node_modules created in your folder.
 // all the depndencies you need to install will be listed in package.json , so you can create the node_module 
 by doing steps 4 , 4.1, 4.2, 4.3, 4.4
 
+note: in index.js you can see the appID, you need to change this based on your current appID in your amazon skill, 
+you will find it in endpoint part in your skill, just copy and paste it in your index.js 
+
+const appId = 'amzn1.ask.skill.69497888-178e-442a-8599-2fab43f4af94';
+
+note: you need to copy the appID from your alexa skill in endpoint section and place it in your lambada function and copy the ARN from lambda functin to your amazon skill endpoint section. 
+
+remmber to have a unique name for your skill, otherwise it will conflict with other skills that you created previously. 
+also, don't publish your skill unless you are sure that you don't want to update it later. However, you can withraw the process of publishing it during the five working days, like what i did :).
+
+in the lambda function , only zip the folder node_modules and index.js.
+
+
 
