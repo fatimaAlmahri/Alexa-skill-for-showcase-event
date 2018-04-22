@@ -1,0 +1,19 @@
+{
+  "name": "brunel_showcase_alexa_skill",
+  "version": "1.0.0",
+  "description": "this project is about creating an amazon skill that obtain data from visitors to brunel showcase events by asking questions about thier option about the showcase, the best project ,rate the probject and their opinion about the best project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brunel",
+    "showcase"
+  ],
+  "author": "fatima almahri",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "aws-sdk": "^2.226.1"
+  }
+}
