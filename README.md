@@ -14,5 +14,8 @@ commands in the termial:
 4.4 npm install aws-sdk - -save
 you will find a folder called node_modules created in your folder.
 5. zip the folder node_modules and index.js and upload them to lambda function in amazon 
+6. to share your project with others, you need to upload only the index.js and package.json file. 
+// all the depndencies you need to install will be listed in package.json , so you can create the node_module 
+by doing steps 4 , 4.1, 4.2, 4.3, 4.4
 
 
